@@ -6,37 +6,33 @@ achievements:
       description: Awarded for staring our repository, make a wish!
       triggers:
         - trigger:
+            actor: author
             action: star
-            condition: [starred = true]
+            condition: starred = true
   - achievement:
       name: Every Bit Counts
       icon: every_bit_counts.svg
       description: No commit is to small!
       triggers:
         - trigger:
+            actor: author
             action: commit
-            condition: [count >= 1]
+            condition: count() >= 1
   - achievement:
       name: Pull Request Hero
       icon: pull_request_hero.svg
       description: You're a PR hero, rock on!
       triggers:
         - trigger:
+            actor: author
             action: pull_request
-            condition: [merged >= 1]
+            condition: merged = true
   - achievement:
       name: Closer
       icon: closer.svg
       description: Only closers get coffee!
       triggers:
         - trigger:
+            actor: author
             action: issue
-            condition: [closed >= 1]
-  - achievement:
-      name: Keeping the Lights On
-      icon: keeping_the_lights_on.svg
-      description: Sponsoring helps support our projects, cheers!
-      triggers:
-        - trigger:
-            action: sponsor
-            condition: [sponsored = true]
+            condition: closed = true
