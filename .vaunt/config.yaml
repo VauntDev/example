@@ -2,7 +2,7 @@ version: 0.0.1
 achievements:
   - achievement:
       name: Shooting Star
-      icon: https://github.com/vauntdev/example/blob/master/.vaunt/shooting_star.png
+      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/shooting_star.png
       description: Awarded for staring our repository, make a wish!
       triggers:
         - trigger:
@@ -11,7 +11,7 @@ achievements:
             condition: starred = true
   - achievement:
       name: Every Bit Counts
-      icon: https://github.com/vauntdev/example/blob/master/.vaunt/every_bit_counts.png
+      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/every_bit_counts.png
       description: No commit is to small!
       triggers:
         - trigger:
@@ -20,7 +20,7 @@ achievements:
             condition: count() >= 1
   - achievement:
       name: Pull Request Hero
-      icon:https://github.com/vauntdev/example/blob/master/.vaunt/pull_request_hero.png
+      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/pull_request_hero.png
       description: You're a PR hero, rock on!
       triggers:
         - trigger:
@@ -29,7 +29,7 @@ achievements:
             condition: merged = true
   - achievement:
       name: Closer
-      icon: https://github.com/vauntdev/example/blob/master/.vaunt/closer.png
+      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/closer.png
       description: Only closers get coffee!
       triggers:
         - trigger:
