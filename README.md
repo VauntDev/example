@@ -4,7 +4,7 @@ This is an example repsoitory that demostrates how Vaunt can be applied to proje
 
 # Top Contributors 
 <p>
-  <img src="https://api.vaunt.dev/v1/github/entities/VauntDev/repositories/example/contributors?format=svg&limit=10" width="350" />
+  <img src="https://api.vaunt.dev/v1/github/entities/VauntDev/repositories/example/contributors?format=svg&limit=12" width="600" />
 </p>
 
 
@@ -55,20 +55,11 @@ achievements:
             condition: closed = true
 ```
 
-### Awards 
-<p>
-  <div> Shooting Star </div>
-  <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/shooting_star.png" width="150" />
-</p>
-<p>
-  <div> Every Bit Counts </div>
-  <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/every_bit_counts.png" width="150" />
-</p>
-<p>
-  <div> Pull Request Hero <div>
-  <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/pull_request_hero.png" width="150" />
-</p>
-<p>
-  <div> Closer </div> 
-  <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/closer.png" width="150" />
-</p>
+### Awards
+
+| Name | Icon | Description |
+| ---- | ---- | ----------- |
+| Shooting Star | <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/shooting_star.png" width="150" /> | Awarded for staring our repository, make a wish! |
+| Every Bit Counts | <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/every_bit_counts.png" width="150" /> | No commit is to small! |
+| Pull Request Hero | <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/pull_request_hero.png" width="150" /> | You're a PR hero, rock on! |
+| Closer| <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/closer.png" width="150" /> | Only closers get coffee! |
