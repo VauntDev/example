@@ -55,7 +55,7 @@ achievements:
             condition: closed = true
 ```
 
-### Awards
+### Available Awards
 
 | Name | Icon | Description |
 | ---- | ---- | ----------- |
