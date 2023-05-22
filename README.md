@@ -1,4 +1,6 @@
-# example
+# Example
+This is an example repsoitory that demostrates how Vaunt can be applied to projects. 
+
 
 # Top Contributors 
 <p>
