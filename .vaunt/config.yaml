@@ -12,7 +12,7 @@ achievements:
   - achievement:
       name: Every Bit Counts
       icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/every_bit_counts.png
-      description: No commit is to small!
+      description: No commit is too small!
       triggers:
         - trigger:
             actor: author
