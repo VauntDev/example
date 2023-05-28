@@ -18,7 +18,7 @@ achievements:
   - achievement:
       name: Shooting Star
       icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/shooting_star.png
-      description: Awarded for staring our repository, make a wish!
+      description: Awarded for starring our repository, make a wish!
       triggers:
         - trigger:
             actor: author
@@ -57,7 +57,7 @@ achievements:
 
 | Name | Icon | Description |
 | ---- | ---- | ----------- |
-| Shooting Star | <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/shooting_star.png" width="150" /> | Awarded for staring our repository, make a wish! |
+| Shooting Star | <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/shooting_star.png" width="150" /> | Awarded for starring our repository, make a wish! |
 | Every Bit Counts | <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/every_bit_counts.png" width="150" /> | No commit is too small! |
 | Pull Request Hero | <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/pull_request_hero.png" width="150" /> | You're a PR hero, rock on! |
 | Closer| <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/closer.png" width="150" /> | Only closers get coffee! |
