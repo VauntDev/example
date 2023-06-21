@@ -3,7 +3,7 @@ achievements:
   - achievement:
       name: Shooting Star
       icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/shooting_star.png
-      description: Awarded for starting our repository, make a wish!
+      description: Awarded for staring our repository, make a wish!
       triggers:
         - trigger:
             actor: author
