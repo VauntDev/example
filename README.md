@@ -61,3 +61,13 @@ achievements:
 | Every Bit Counts | <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/every_bit_counts.png" width="150" /> | No commit is too small! |
 | Pull Request Hero | <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/pull_request_hero.png" width="150" /> | You're a PR hero, rock on! |
 | Closer| <img src="https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/closer.png" width="150" /> | Only closers get coffee! |
+
+### Embed in your README (or in your website)
+
+Just add this link:
+
+```html
+<p>
+  <img src="https://api.vaunt.dev/v1/github/entities/${{YOUR_GITHUB_USERNAME}}/achievements?format=svg&limit=3" width="350" />
+</p>
+```
