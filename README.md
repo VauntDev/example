@@ -64,7 +64,7 @@ achievements:
 
 ### Embed in your README (or in your website)
 
-To embed badges you earn in your readme file (or your website), add the following line and replace YOUR_GITHUB_USERNAME with your username:
+Add the following line and replace YOUR_GITHUB_USERNAME with your username:
 
 ```html
 <p>
