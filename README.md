@@ -10,7 +10,7 @@ This is an example repository that demonstrates how Vaunt can be applied to proj
 
 This repository leverages Vaunt's standard achievements defined in `.vaunt/config.yaml`.
 
-Refer to the Vaunt [docs](https://docs.vaunt.dev) for more details on how to leverage Vaunt's achievement configurations.
+Refer to the Vaunt [docs](https://docs.vaunt.dev) for more details on how to leverage Vaunt's achievement and notifications configurations.
 
 ```yaml
 version: 0.0.1
@@ -51,6 +51,27 @@ achievements:
             actor: author
             action: issue
             condition: closed = true
+webhooks:
+  - webhook:
+      name: achievements
+      type: github
+      metadata:
+        discussion:
+          repository: VauntDev/example
+          title: Vaunt Achievements
+      events:
+        - event:
+            type: achievement
+            value: Shooting Star
+        - event:
+            type: achievement
+            value: Every Bit Counts
+        - event:
+            type: achievement
+            value: Pull Request Hero
+        - event:
+            type: achievement
+            value: Closer
 ```
 
 ### Available Awards
