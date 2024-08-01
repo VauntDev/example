@@ -8,7 +8,7 @@ This is an example repository that demonstrates how Vaunt can be applied to proj
 
 # Achievements
 
-This repository leverages Vaunt's standard achievements defined in `./vaunt/config.yaml`.
+This repository leverages Vaunt's standard achievements defined in `.vaunt/config.yaml`.
 
 Refer to the Vaunt [docs](https://docs.vaunt.dev) for more details on how to leverage Vaunt's achievement configurations.
 
