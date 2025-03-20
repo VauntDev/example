@@ -36,6 +36,15 @@ achievements:
             actor: author
             action: issue
             condition: closed = true
+  - achievement:
+      name: Bug Hunter
+      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/bug_hunter.png
+      description: No bug escapes your keen eye!
+      triggers:
+        - trigger:
+            actor: author
+            action: issue
+            condition: labels in ['bug'] & reactors in ['elewis787', 'jeff10110322', 'simonmazzaroth']
 webhooks:
   - webhook:
       name: achievements
@@ -57,3 +66,6 @@ webhooks:
         - event:
             type: achievement
             value: Closer
+        - event:
+            type: achievement
+            value: Bug Hunter
