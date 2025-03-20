@@ -44,6 +44,7 @@ achievements:
         - trigger:
             actor: author
             action: issue
+            condition: labels in ['bug'] & reactors in ['elewis787', 'jeff10110322', 'simonmazzaroth']
 webhooks:
   - webhook:
       name: achievements
